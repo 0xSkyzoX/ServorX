@@ -1,0 +1,19 @@
+{
+  "name": "servorx",
+  "version": "1.0.6",
+  "description": "",
+  "main": "./source/server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon ./source/server.ts"
+  },
+  "keywords": [],
+  "author": "Badr Eddarif",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.7"
+  }
+}
