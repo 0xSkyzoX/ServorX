@@ -16,6 +16,7 @@ export default class ServerX {
         const path = req.url;
         const route = this.routes.find(route => ConvertPath(route.path) === ConvertPath(path) && route.method === req.method);
         if (route) {
+            console.log(route.path.split(";"))
             const _req = new Request(req, route.method)
             const _res = new Response(res)
             if (route.method !== "GET") {
